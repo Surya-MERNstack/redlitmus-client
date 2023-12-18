@@ -185,7 +185,7 @@ function Profile() {
       else if (reponse === true) {
         // alert("Address added successfully");
         // new AWN().success('Address added successfully', {durations: {success: 0}})
-        toast.warn('🥳 Address added successfully', {
+        toast.success('🥳 Address added successfully', {
           position: "top-center",
           autoClose: 5000,
           hideProgressBar: false,
