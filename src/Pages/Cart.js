@@ -25,9 +25,7 @@ function Cart() {
         totalQuantity += data.quantity;
       });
       return totalQuantity;
-    }
-
-    
+    }    
     const fetchData = async () => {
       try {
         const items = await ViewCard();
