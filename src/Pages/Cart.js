@@ -18,6 +18,16 @@ function Cart() {
   const [isLoading, setIsLoading] = useState(true);
   const [buttonDisabled, setButtonDisabled] = useState(false);
   useEffect(() => {
+
+    function calculateTotalQuantity() {
+      let totalQuantity = 0;
+      itemList.forEach((data) => {
+        totalQuantity += data.quantity;
+      });
+      return totalQuantity;
+    }
+
+    
     const fetchData = async () => {
       try {
         const items = await ViewCard();
