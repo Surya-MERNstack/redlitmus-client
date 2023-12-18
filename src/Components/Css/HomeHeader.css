@@ -1,0 +1,121 @@
+.HeaderRow {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  height: 60px;
+  color: gray;
+  font-weight: 500;
+}
+.logo1 {
+  width: 70% ;
+  height: 60% ;
+}
+.Poogavanapuramdiv {
+  padding-top: 1%;
+  font-size: 90%;
+  padding-right: 0px;
+  color: black;
+  padding-right: 0px !important;
+}
+.dropdownIcon {
+  color: #fc8019;
+  padding: 5px;
+  font-size: 110%;
+}
+.Searchdiv {
+  padding-top: 1%;
+  font-size: 110%;
+  padding-right: 0px;
+}
+.Searchdiv:hover {
+  color: #fc8019;
+}
+.Searchdiv a:hover {
+  color: #fc8019;
+}
+.Poogavanapuram:hover {
+  color: #fc8019;
+}
+.New {
+  color: #fc8019;
+}
+
+.HeaderRow a {
+  text-decoration: none;
+  color: gray;
+}
+.HomeHeader button {
+  border: none;
+  background-color: white;
+  color: gray;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: start;
+}
+.restaurantsCountDiv {
+  padding-top: 1%;
+  font-weight: 600;
+  font-size: 200%;
+  margin-left: 3%;
+}
+.HeaderRow {
+  position: sticky;
+}
+.highlight a {
+  color: #fc8019;
+}
+.logo1div{
+  padding-right: 0% !important;
+  padding-left: 5% !important;
+ }
+@media (max-width: 830px) {
+ .logo1div{
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+ }
+  .logo1{
+    margin-left:10% !important;
+  }
+  .Poogavanapuramdiv{
+    padding-left: 0% !important;
+  }
+
+  .HeaderRow {
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 69%;
+    font-weight: 500;
+    text-align: start;
+  }
+  .Searchdiv {
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 600px) {
+  .Poogavanapuramdiv {
+    display: none;
+  }
+  .logo1div {
+    display: none;
+  }
+  .HeaderRow {
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 69%;
+    font-weight: 500;
+    text-align: start;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Searchdiv {
+    margin-left: 0% !important;
+    padding: 0% !important;
+    padding-top: 3% !important;
+  }
+  .container-fluid {
+    padding-left: 0%;
+  }
+}

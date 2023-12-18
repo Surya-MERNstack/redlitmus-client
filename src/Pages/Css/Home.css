@@ -1,0 +1,107 @@
+.HomeHeader {
+  font-size: 110%;
+  padding-right: 0px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.Relevance button {
+  padding: 0px;
+}
+.HeaderRow1 {
+  position: sticky;
+}
+.HomeHeader button {
+  border: none;
+  background: transparent;
+  font-size: 100%;
+  font-weight: 500;
+  text-align: start;
+}
+.restaurantsCountDiv {
+  padding-top: 1%;
+  font-weight: 600;
+  font-size: 200%;
+}
+.HeaderRow2 {
+  position: sticky;
+}
+.HeaderRowBorder {
+  content: "";
+  margin-left: 2rem;
+  width: 95%;
+  border: 1px solid gray;
+  margin-top: 0.8rem;
+}
+.activeHomeBtn1 {
+  text-decoration: none;
+  color: gray;
+}
+.activeHomeBtn {
+  border-bottom: 2px solid gray;
+}
+.isLoading {
+  margin-top: 20%;
+  margin-left: 45%;
+  color: #fc8019;
+}
+.HeaderRow2 .btn a:hover{
+  color: gray;
+}
+
+@media (max-width: 850px) {
+  .restaurantsCountDiv {
+    display: none;
+  }
+  .HomeHeader {
+    margin-left: 1%;
+    width: 85%;
+    width: 100%;
+  }
+  .HeaderRow2 {
+    font-size: 60%;
+    padding-right: 0px;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: gray;
+    width: 100%;
+  }
+  .HeaderRow2 a {
+    color: gray;
+  }
+  .HeaderRowBorder {
+    width: 86%;
+  }
+  .Relevance{
+    margin-left: 5% !important;
+    width: 100% !important;
+  }
+  
+}
+@media (min-width: 600px) and (max-width: 850px) {
+  .isLoading {
+    margin-top: 40%;
+    margin-left: 45%;
+    color: #fc8019;
+  }
+  .HeaderRowBorder {
+    width: 93%;
+    margin-top: 3% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media (max-width: 600px) {
+  .isLoading {
+    margin-top: 70%;
+    margin-left: 45%;
+    color: #fc8019;
+  }
+  .HeaderRowBorder {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 5% !important;
+    margin-bottom: 6% !important;
+  }
+}
+.HeaderRow2 a {
+  color: gray;
+}

@@ -1,0 +1,39 @@
+#rating1 {
+  background-color: #48c479;
+  color: #fff;
+  padding: 5px 10px 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.showcase {
+  padding-left: 35%;
+  height: 60%;
+  width: 60%;
+}
+.resDetails {
+  margin-left: 2%;
+}
+.RatingDetails {
+  margin-left: 1%;
+}
+@media (min-width: 600px) and (max-width: 850px) {
+ 
+  .RatingDetails {
+    margin-left: 1%;
+  }
+  .resDetails {
+    margin-left: 2%;
+  }
+}
+@media (max-width: 600px) {
+  .RatingDetails {
+    margin-left: 2%;
+  }
+  .resDetails {
+    margin-left: 2%;
+  }
+  .showcase {
+    padding-left: 10%;
+    margin-left: 12%;
+  }
+}

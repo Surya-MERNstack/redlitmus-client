@@ -1,0 +1,132 @@
+.ProfileDiv {
+  background-color: #37718e;
+  color: white;
+}
+
+.EditProfile {
+  background-color: transparent;
+  border: 0.5px solid whitesmoke;
+  color: white;
+}
+.Profilebutton {
+  background-color: #37718e;
+  color: white;
+}
+.Profilebuttondiv button {
+  border-radius: 0px !important;
+  border: 0px;
+}
+.Profilebuttonclicked {
+  color: #37718e;
+  background-color: white !important;
+}
+.ProfilesecondDiv {
+  border-left: 10px solid #37718e;
+  border-right: 10px solid #37718e;
+  border-bottom: 5px solid #37718e;
+}
+.orderEmpty img {
+  margin-top: 1%;
+  margin-left: 20%;
+}
+.orderEmpty h6 {
+  margin-top: 3%;
+  margin-left: 30%;
+}
+.orderEmpty p {
+  margin-top: 1%;
+  margin-left: 24%;
+  margin-bottom: 1%;
+}
+.orderEmpty {
+  margin-left: 12%;
+}
+.EditProfileinputbox{
+  width: 85%;
+  border: 1px solid #37718e !important;
+  height: 50px;
+}
+.EditProfilecanvasclosebtn{
+  background-color: #37718e;
+  color: white;
+  width: 85%;
+}
+.EditProfilecanvasclosebtn:hover {
+  background-color: #37718e !important;
+  color: white !important;
+}
+.EditProfileHeading{
+  color: #37718e;
+}
+.NoaddressDiv{
+  text-align: center;
+}
+.isLoadingOrdes{
+  padding-top: 10%;
+  padding-left: 45%;
+  padding-bottom: 10%;
+  padding-right: 55%;
+  color: #fc8019 !important;
+  background-color: transparent;
+  top: 0;
+}
+@media (min-width: 600px)  and (max-width: 850px) {
+  .profiledetailsdiv {
+    padding: 0% !important;
+  }
+  .profiledetailbutton {
+    padding-top: 0% !important;
+    padding-bottom: 3% !important;
+    margin-top: 3% !important;
+  }
+  .orderEmpty {
+    margin-left: 5%;
+  }
+  .orderEmpty h6 {
+    margin-top: 3%;
+    margin-left: 35%;
+  }
+  .orderEmpty p {
+    margin-top: 1%;
+    margin-left: 24%;
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 600px) {
+    .profiledetailsdiv {
+      padding: 0% !important;
+    }
+    .profiledetailbutton {
+      padding-top: 0% !important;
+      padding-bottom: 3% !important;
+      margin-top: 3% !important;
+    }
+    .orderEmpty {
+      margin-left: 0%;
+    }
+    .orderEmpty img {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 100%;
+      }
+      .ProfilesecondDiv{
+        padding-left: 0% !important;
+      }
+      .orderEmpty h6 {
+        margin-top: 3%;
+        margin-left: 40%;
+      }
+      .orderEmpty p {
+        margin-top: 1%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+      }
+      .NoaddressDiv h4{
+        font-size: medium;
+        margin-left: 20%;
+      }
+      .NoaddressDiv p{
+        font-size: small;
+        margin-left: 20%;
+      }
+  }

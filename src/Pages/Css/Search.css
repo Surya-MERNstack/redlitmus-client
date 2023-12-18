@@ -1,0 +1,21 @@
+.SearchInputBox {
+  width: 84.5%;
+  height: 60px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 7%;
+  border: 1px solid gray;
+  border-right: none;
+  outline: none;
+}
+.SearchInputBoxDivUp {
+  background: linear-gradient(gainsboro, white);
+}
+.search-icon {
+  padding-top: 21.5px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  border: 1px solid gray;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  color: gray;
+}

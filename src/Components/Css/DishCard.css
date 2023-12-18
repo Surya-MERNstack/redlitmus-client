@@ -1,0 +1,75 @@
+.list-image {
+  width: 120px;
+}
+.daetailsrow {
+  width: 100%;
+  margin-right: 0px;
+}
+.foodname p {
+  width: 160px;
+  margin-left: 0%;
+  padding-left: 0px;
+  margin-right: 10%;
+}
+.goldStar {
+  color: gold;
+}
+.quantity{
+  background-color: #dc3545;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 5px;
+}
+.dishCardBorder{
+  border: 1px solid whitesmoke;
+  border-radius:  5px; ;
+}
+.dishCardAddMinusDiv{
+  padding-left: 19% !important;
+}
+.addonly{
+  padding-left: 25% !important;
+}
+@media(min-width: 600px) and (max-width: 850px) {
+ .resname{
+  padding-left: 8% !important;
+ }
+ .dishCardAddMinusDiv{
+  padding-left: 13% !important;
+}
+.addonly{
+  padding-left: 22% !important;
+}
+}
+@media (max-width: 600px) {
+  .foodname p {
+    width: 160px;
+    margin-left: 200%;
+    padding-left: 0px;
+    margin-right: 0%;
+  }
+  .pricename {
+    width: 100px;
+  }
+  .goldStarDiv {
+    width: 100px;
+  }
+  .resname {
+    padding-left: 22% !important;
+  }
+  .addonly{
+    width: 120%;
+  }
+  .dishCardAddMinusDiv{
+    padding-left: 2% !important;
+    padding-right: 0% !important;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  .addonly{
+    padding-left: 5% !important;
+  }
+}

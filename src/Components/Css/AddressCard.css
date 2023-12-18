@@ -1,0 +1,14 @@
+.AddressBox{
+    border: 2px solid whitesmoke;
+}
+.AddressBoxbtn{
+    font-size: medium;
+    padding: 1% !important;
+    margin-left: 25% !important;
+}
+@media (max-width:600px)
+{
+    .AddressBox{
+        margin-left: 8% !important;
+    }
+}
